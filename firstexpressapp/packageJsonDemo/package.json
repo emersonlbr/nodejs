@@ -1,0 +1,15 @@
+{
+  "name": "jsondemo",
+  "version": "1.0.0",
+  "description": "just a simple json file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emerson Lopes",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "express": "^4.15.2"
+  }
+}
