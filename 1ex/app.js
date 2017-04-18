@@ -17,6 +17,13 @@ app.get("/speak/dog", function(req, res){
   res.send("The dog says 'Woof Woof'");
 });
 
+
+
+app.get("*", function(req, res) {
+  res.send("404 error not found");
+
+});
+
 app.listen(3000, function(){
   console.log("Server working!");
 });
