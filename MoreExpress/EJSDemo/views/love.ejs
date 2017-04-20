@@ -1,0 +1,14 @@
+<% include partials/header %>
+
+<h1>You feel in love with: <%= thingVar %> </h1>
+<% if(thingVar.toLowerCase() === "rusty"){ %>
+  <p>Good Choice Rusty is the best!</p>
+<% } else { %>
+  <p>Bad Choice!</p>
+<% } %>
+<p>P.S. This is the EJS file</p>
+
+<% include partials/footer %>
+
+<!-- add to the hmtl <%= %> -->
+<!-- logic, that shouldnt be added to the html <% %> -->
