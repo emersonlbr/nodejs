@@ -3,4 +3,4 @@
 a repository that includes all my projects while learning node
 each folder is a web app that I've done in nodejs, using some frameworks and testing new ones, to check its dependecies look for the package.json on each project folder. 
 
-each folder is a different project
+each folder is a different project, most of the projects are website, so you will be able to open them in the browser. 
