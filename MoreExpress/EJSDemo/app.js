@@ -7,12 +7,14 @@ app.use(express.static("public"));
 // you dont have to use "home.ejs", only home
 app.set("view engine", "ejs");
 
-app.get("/", function(req, res){
+app.get("/", function(req, res)
+{
   //gettinf the page
   res.render("home");
 });
 
-app.get("/love/:thing", function(req, res){
+app.get("/love/:thing", function(req, res)
+{
   var thing = req.params.thing;
   res.render("love", {thingVar: thing});
 });
