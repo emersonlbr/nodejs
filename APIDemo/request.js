@@ -5,3 +5,5 @@ request('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather
     console.log(parsedData);
   }
 });
+
+//using node as a tool
