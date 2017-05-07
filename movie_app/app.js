@@ -30,6 +30,10 @@ app.get("/results", function(req, res){
     });
 });
 
+app.get("/emerson", function(req, res){
+  res.render("emerson")
+})
+
 
 // 300 is the port the code will be run
 app.listen(3000, function(){
