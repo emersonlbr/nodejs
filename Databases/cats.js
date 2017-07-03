@@ -12,7 +12,7 @@ var Cat = mongoose.model("Cat", catSchema);
 
 // adding a new cat to the DB
  // var emerson = new Cat({
- //   name: "Mandy",
+ //   name: "Erica",
  //   age: 19,
  //   temperament: "Beatiful"
  // });
